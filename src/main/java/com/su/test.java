@@ -17,6 +17,7 @@ public class test {
         String password = pros.getProperty("password");
         String url = pros.getProperty("url");
         String driverClass = pros.getProperty("driverClass");
+        System.out.println(url);
 
         // 2.加载驱动
         Class.forName(driverClass);
